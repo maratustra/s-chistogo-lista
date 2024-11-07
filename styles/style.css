@@ -104,6 +104,7 @@ ul {
 
 .accent-span {
   display: block;
+  letter-spacing: 0.4px;
 }
 
 .text-center {
@@ -116,7 +117,6 @@ ul {
 
 .intro {
   padding: 0 20px 38px 20px;
-  letter-spacing: 0.3px;
 }
 
 .intro__heading {
@@ -150,14 +150,12 @@ ul {
   align-items: flex-start;
   font-size: 28px;
   line-height: 115%;
-  letter-spacing: 0.4px;
   margin-bottom: 32px;
 }
 
 .content-section__introduction {
   font-size: 20px;
   line-height: 27px;
-  letter-spacing: 0.3px;
   margin-bottom: 32px;
 }
 
@@ -166,7 +164,6 @@ ul {
   flex-direction: column;
   gap: 16px;
   line-height: 21.6px;
-  letter-spacing: 0.3px;
 }
 
 .content-section__list-item {
@@ -194,7 +191,7 @@ ul {
 .cards-list {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 33px;
 }
 
 .card_theme_dark {
@@ -242,7 +239,6 @@ ul {
 
 .card__text {
   line-height: 21.6px;
-  letter-spacing: 0.3px;
 }
 
 .footer {
@@ -258,6 +254,8 @@ ul {
 .footer__links {
   display: flex;
   gap: 16px;
+  font-size: 14px;
+  line-height: 125%;
 }
 
 .footer__link {
